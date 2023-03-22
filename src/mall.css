@@ -1,0 +1,82 @@
+#mallMainWrapper,
+#mallCatalogFilter,
+#mallCatalogListing,
+#mallMypicks {
+  border: 1px solid lightblue;
+}
+
+#mallMainWrapper a {
+  text-decoration: none;
+  color: black;
+}
+
+#mallLevel2 {
+  display: flex;
+}
+
+#mallLeftSide {
+  min-width: 200px;
+}
+
+#mallRightSide {
+  display: flex;
+  flex: 1;
+  margin-left: 10px;
+}
+
+#mallMypicks {
+  flex: 1;
+}
+
+#mallCatalogFilter .buttonsStripe {
+  display: flex;
+}
+
+#mallCatalogFilter .entryButtonSpot {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#mallCatalogFilter .entryButtonSpot button {
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+#mallCatalogFilter .entryButtonSpot button.isOn {
+  border: 3px solid darkgreen;
+  color: green;
+}
+
+#mallMainWrapper .mListingEntry {
+  border: 1px solid lightgrey;
+  padding: 5px;
+}
+
+#mallMainWrapper .mListingEntry {
+  margin-top: 10px;
+}
+
+#mallMainWrapper .mListingEntry {
+  display: flex;
+}
+
+#mallMainWrapper .mListingEntry.isPicked {
+  opacity: 0.5;
+}
+
+.mCrate img {
+  display: block;
+  max-width: 40px;
+}
+
+.mCrate .particularAge {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  font-style: italic;
+
+  font-size: 90%;
+}
+
+#mallMainWrapper .mCrate:not(:first-child) {
+  margin-left: 20px;
+}
